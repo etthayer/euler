@@ -1,0 +1,10 @@
+var a = 1;
+var b = 1;
+var total = 0;
+
+while (total < 100) {
+  total = (a + b);  //add the initial numbers together, and save them as a value called "total"
+  a = b; //change the value of the first number to that of the second
+  b = total; //change the value of the second number to that of the sum of the two numbers
+  console.log(total); //print the current total to the console
+};
